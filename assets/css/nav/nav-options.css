@@ -1,0 +1,8 @@
+.nav__options{
+    align-items: center;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}

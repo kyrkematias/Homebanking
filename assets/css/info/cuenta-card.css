@@ -1,0 +1,32 @@
+.cuenta__card{
+    background: white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 1.5rem;
+    width: 300px;
+}
+
+.cuenta__card:hover{
+    transform: translateY(-5px);
+}
+
+.cuenta__card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 7px;
+}
+
+.cuenta__card-cuenta{
+    color: #6F757A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: 11px;
+}
+
+.cuenta__card-saldo{
+    color: #1E1F21;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 1rem 0;
+}

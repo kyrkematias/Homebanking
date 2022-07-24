@@ -1,0 +1,15 @@
+.nav{
+    align-items: center;
+    background: #ffffff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.nav__title{
+    color: black;
+    font-weight: 400;
+}

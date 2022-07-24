@@ -1,0 +1,12 @@
+.cuenta__card__sub{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cuenta__card__sub-desc{
+    color: #4F5457;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}

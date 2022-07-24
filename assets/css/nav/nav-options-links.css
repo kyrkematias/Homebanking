@@ -1,0 +1,26 @@
+.nav__options-links1{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    width: 150px;
+}
+
+.nav__options-links2{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    width: 110px;
+}
+
+.nav__options-links2txt{
+    color: black;
+    text-decoration: none;
+}

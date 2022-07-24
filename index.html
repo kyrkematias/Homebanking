@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Banking Santander | Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/nav/nav.css">
+    <link rel="stylesheet" href="assets/css/nav/btn-menu.css">
+    <link rel="stylesheet" href="assets/css/nav/nav-logo.css">
+    <link rel="stylesheet" href="assets/css/nav/nav-options.css">
+    <link rel="stylesheet" href="assets/css/nav/nav-options-links.css">
+    <link rel="stylesheet" href="assets/css/search/search.css">
+    <link rel="stylesheet" href="assets/css/heading/heading.css">
+    <link rel="stylesheet" href="assets/css/heading/heading-title.css">
+    <link rel="stylesheet" href="assets/css/heading/heading-saldos.css">
+    <link rel="stylesheet" href="assets/css/heading/heading-saldos-title.css">
+    <link rel="stylesheet" href="assets/css/info/cuenta.css">
+    <link rel="stylesheet" href="assets/css/info/info.css">
+    <link rel="stylesheet" href="assets/css/info/cuenta-title.css">
+    <link rel="stylesheet" href="assets/css/info/cuenta-card.css">
+    <link rel="stylesheet" href="assets/css/info/cuenta-card-sub.css">
+    <link rel="stylesheet" href="assets/css/servicios/servicios-card.css">
+    
+</head>
+<body>
+    <header class="nav">
+        <div>
+            <a href="" class="nav__btn-menu">
+                <i class="bi bi-list btn__menu" width="20px" height="20px"></i>
+                <h4 class="nav__title">Menú</h4>
+            </a>
+        </div>
+        <img src="assets/imagenes/logosantander.jpg" alt="" class="nav__logo">
+        <div class="nav__options">
+            <a href="" class="nav__options-links1 nav__options-links2txt">Centro de ayuda</a>
+            <div class="nav__options-links2">
+                <a href="" class="nav__options-links2txt">Usuario</a>
+                <i class="bi bi-chevron-right"></i>
+            </div>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell icon-red" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+              </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-building icon-red" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+              </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-power icon-red" viewBox="0 0 16 16">
+                <path d="M7.5 1v7h1V1h-1z"/>
+                <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z"/>
+              </svg></a>
+        </div>
+    </header>
+    <section class="search">
+        <i class="bi bi-search search-i"></i>
+        <input type="text" placeholder="Buscar operaciones, productos, secciones y consultas" class="search-inp">
+    </section>
+   <section class="heading">
+        <h1 class="heading__title">Hola, Usuario</h1>
+        <div class="heading__saldos">
+            <h5 class="heading__saldos-title">Ocultar saldos</h5>
+            <div class="form-check form-switch danger">
+                <input class="form-check-input danger-outlined" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            </div>
+        </div>
+   </section>
+   <section class="info">
+        <section class="cuenta">
+            <h3 class="cuenta__title">Estado de tu cuenta</h3>
+            <div class="cuenta__card">
+                <h3 class="cuenta__card-title">Cuenta única</h3>
+                <h4 class="cuenta__card-cuenta">089-593174 / 9</h4>
+                <h2 class="cuenta__card-saldo">$ 1000,74</h2>
+                <h2 class="cuenta__card-saldo">U$S 0,00</h2>
+                <div class="cuenta__card__sub">
+                    <i class="bi bi-arrow-clockwise"></i>
+                    <h5 class="cuenta__card__sub-desc">Ver movimientos | </h5>
+                    <i class="bi bi-share"></i>
+                    <h5 class="cuenta__card__sub-desc">CBU / Alias</h5>
+                </div>
+            </div>
+        </section>
+        <section class="servicios">
+            <h3 class="cuenta__title">Accesos rápidos</h3>
+            <div class="servicios__group">
+                <div class="servicios__card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-right serv__i" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+                      </svg>
+                    <h4 class="servicios__card-title">Transferencias</h4>
+                </div>
+                <div class="servicios__card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cash-coin serv__i" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+                        <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+                        <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+                        <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+                      </svg>
+                    <h4 class="servicios__card-title">Pago de servicios</h4>
+                </div>
+                <div class="servicios__card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-wallet2 serv__i" viewBox="0 0 16 16">
+                        <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+                      </svg>
+                    <h4 class="servicios__card-title">Préstamos</h4>
+                </div>
+                <div class="servicios__card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-activity serv__i" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+                      </svg>
+                    <h4 class="servicios__card-title">Seguros</h4>
+                </div>
+                <div class="servicios__card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-graph-up-arrow serv__i" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
+                      </svg>
+                    <h4 class="servicios__card-title">Plazos fijos</h4>
+                </div>
+                <div class="servicios__card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-chat-left-dots serv__i" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                      </svg>
+                    <h4 class="servicios__card-title">Centro de ayuda</h4>
+                </div>
+            </div>
+        </section>
+   </section>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.servicios__card{
+    background: white;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    justify-content: center;
+    margin: 0px 15px 15px 0;
+    width: 200px;
+}
+
+.servicios__card:hover{
+    background: rgba(39, 168, 245, 0.2);
+    transform: translateY(-5px);
+}
+
+.serv__i{
+    color: #3887b6;
+}
+
+.servicios__card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.servicios__group{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}

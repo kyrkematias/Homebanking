@@ -1,0 +1,8 @@
+.heading__title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.heading__title.heading__title:last-w{
+    font-weight: bold;
+}
