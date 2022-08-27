@@ -7,6 +7,9 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 2rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .nav__title{

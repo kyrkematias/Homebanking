@@ -1,8 +1,6 @@
-.info{
+.other__cards{
     display: flex;
     flex-direction: row;
-    gap: 24px;
     justify-content: space-between;
-    padding: 2rem 2rem 2rem 10rem;
-    width: auto;
+    margin-top: 2rem;
 }

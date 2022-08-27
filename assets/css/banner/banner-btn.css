@@ -1,0 +1,14 @@
+.banner__btn{
+    border: #EC0000 solid 1.7px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #EC0000;
+    text-decoration: none;
+    padding: .3rem 1rem;
+}
+
+.banner__btn:hover{
+    color: #EC0000;
+}

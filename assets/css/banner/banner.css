@@ -1,0 +1,11 @@
+.banner{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    background: url(../../imagenes/banner.png) center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 12px;
+    height: 223px;
+    padding: 3rem;
+}

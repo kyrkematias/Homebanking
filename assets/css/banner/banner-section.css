@@ -1,0 +1,5 @@
+.banner__section{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 10rem 2rem 10rem;
+}
