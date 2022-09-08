@@ -6,13 +6,14 @@
     flex-direction: row;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
     justify-content: space-around;
-    padding: 0.8rem 1rem;
+    padding: 0.65rem 1rem;
     text-decoration: none;
-    width: 70px;
+    width: 95px;
 }
 
 .btn__menu{
     color: red;
+    width: 35px;
 }
